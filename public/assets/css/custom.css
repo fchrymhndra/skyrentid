@@ -1,0 +1,240 @@
+/*--------------------------------------------------------------
+# Global Styles
+--------------------------------------------------------------*/
+header {
+    margin-bottom: 20px; /* Add margin below header */
+}
+
+main {
+    margin-bottom: 20px; /* Add margin below main content */
+}
+
+.card {
+    border-radius: 10px; /* Rounded corners */
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#app {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/*--------------------------------------------------------------
+# Navbar
+--------------------------------------------------------------*/
+.navbar {
+    margin-bottom: 20px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1); /* Shadow style */
+}
+
+.navbar-text {
+    margin-right: 10px;
+}
+
+.navbar-text a {
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 24px;
+    margin-bottom: 0;
+    text-align: justify;
+    font-family: "Montserrat", sans-serif;
+}
+
+.navbar-nav a {
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 24px;
+    margin-bottom: 0;
+    text-align: justify;
+    font-family: "Montserrat", sans-serif;
+}
+
+.navbar-brand img {
+    max-height: 80px; /* Set maximum height for logo */
+}
+
+/*--------------------------------------------------------------
+# Jumbotron
+--------------------------------------------------------------*/
+.jumbotron {
+    background-size: cover;
+    height: 55vh; /* Full screen height */
+    margin-bottom: 0;
+}
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+#footer {
+    color: #ffffff;
+    font-size: 14px;
+    background: #000000;
+    margin-top: 20px; /* Add margin to create space between content and footer */
+    box-shadow: 0px 2px 15px rgba(18, 66, 101, 0.08);
+}
+
+#footer .footer-top {
+    padding: 60px 0 30px 0;
+    background: #000;
+}
+
+#footer .footer-top .footer-about {
+    margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-about h3 {
+    font-size: 30px;
+    margin: 0 0 10px 0;
+    padding: 2px 0 2px 0;
+    line-height: 1;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+#footer .footer-top .footer-about p {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 0;
+    text-align: justify;
+    font-family: "Raleway", sans-serif;
+    color: #ffffff;
+}
+
+#footer .footer-top h4 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    position: relative;
+    padding-bottom: 12px;
+}
+
+#footer .footer-top .footer-contact ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#footer .footer-top .footer-contact ul p {
+    color: #ffffff;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+}
+
+#footer .footer-top .footer-contact ul p i {
+    padding-right: 10px;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 1;
+    font-size: 1.3rem;
+}
+
+/*--------------------------------------------------------------
+# Card Produk
+--------------------------------------------------------------*/
+.products .card {
+    margin-bottom: 20px;
+}
+
+.card-title {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.card-custom {
+    font-family: 'Montserrat', sans-serif; /* Gunakan Montserrat atau font yang Anda pilih */
+    background-color: #f8f9fa; /* Background color */
+    border-radius: 10px; /* Rounded corners */
+    color: #4b4b4b; /* Text color */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Shadow style */
+    transition: transform 0.2s ease, box-shadow 0.2s ease; /* Transition effects */
+    max-width: 250px; /* Set maximum width for the card */
+}
+
+.card-custom img {
+    height: 150px; /* Set a fixed height for images */
+    object-fit: cover; /* Maintain aspect ratio and cover the area */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 100%;
+}
+
+.card-custom .card-body {
+    background-color: #ffffff; /* White background for text area */
+    color: #4b4b4b; /* Text color */
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+    padding: 10px; /* Padding for card body */
+}
+
+.card-custom .card-title {
+    color: #023e7e; /* Blue text color */
+    margin-top: 5px; /* Add margin at the top */
+    font-size: 1.2rem; /* Font size for card title */
+    font-weight: bold; /* Bold font weight for emphasis */
+}
+
+.card-custom .card-text {
+    color: #4b4b4b; /* Text color */
+    font-size: 1rem; /* Font size for card text */
+    margin-bottom: 5px; /* Margin bottom for spacing */
+}
+
+.btn-custom {
+    background-color: #023e7e; /* Blue background color */
+    color: #ffffff; /* White text color */
+    border: none;
+    border-radius: 10px; /* Rounded corners */
+    padding: 10px 20px; /* Padding */
+    text-transform: uppercase; /* Uppercase text */
+    margin-top: auto; /* Align button to bottom of card */
+    align-self: center; /* Center align button horizontally */
+    display: block; /* Ensure button is a block element */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Shadow style */
+    transition: box-shadow 0.3s ease; /* Transition for smooth shadow change */
+}
+
+.btn-custom:hover {
+    background-color: #021e4e; /* Darker blue on hover */
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+}
+
+/*--------------------------------------------------------------
+# Kategori
+--------------------------------------------------------------*/
+.category-card {
+    width: 100%;
+    max-width: 220px; /* Lebar maksimum untuk kartu */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    text-decoration: none; /* Hapus garis bawah default pada tautan */
+    color: inherit; /* Warisi warna teks dari induk */
+    cursor: pointer; /* Ubah kursor menjadi penunjuk saat mengarahkan */
+}
+
+.category-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.category-card .card-img-top {
+    height: 160px; /* Setel tinggi gambar */
+    object-fit: contain; /* Pastikan gambar mempertahankan rasio aspek dan menutupi area */
+}
+
+.card-title {
+    font-size: 1rem; /* Ukuran font untuk judul kartu */
+    font-weight: bold; /* Ketebalan font */
+}
+
+@media (min-width: 700px) {
+    .category-card {
+        max-width: 180px; /* Sesuaikan untuk layar yang lebih besar */
+    }
+}
